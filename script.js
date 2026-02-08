@@ -107,6 +107,6 @@ if (contactForm) {
     const subject = encodeURIComponent(`Neue Nachricht von ${name}`);
     const body = encodeURIComponent(`Name: ${name}\nE-Mail: ${email}\n\nNachricht:\n${message}`);
     
-    window.location.href = `mailto:danielpoly017@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:Michal.Kopriva@gmx.de?subject=${subject}&body=${body}`;
   });
 }
